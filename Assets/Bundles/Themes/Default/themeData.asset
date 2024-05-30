@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5397c64509ab92a4b9e8309aebcb66e1, type: 3}
+  m_Name: themeData
+  m_EditorClassIdentifier: 
+  themeName: Day
+  cost: 0
+  premiumCost: 0
+  themeIcon: {fileID: 21300000, guid: 23384de15c0db1543bb8edc575ad9505, type: 3}
+  zones:
+  - length: 500
+    prefabList:
+    - m_AssetGUID: 0be3994764643a140a1f76632bfb260d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: b440ced2064815049b1f89b5a7f7f46d
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: a6242d5e176268b47a981f54cdcb9386
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: a73c0121a01819c458abb78fc616a90e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: ae3ebcf4593dedb4586a167df34d0b09
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: bf9b9276e80d6f445aa4e43315309270
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: c962d8da907fae4479f14453f3600243
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 4e515311802d9494ebca94d8095ce4cf
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: f01bf56815c2dd043a0e2b1eecf964f0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: aba238f0f22986e479e649d6a6ae0182
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 9dc5cea1259d65c4081f07abd53ec0e3
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 9bcde07e1b501984faa2c9f679ef70e7
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: e9ba0058120b91e4c82718e9a7e53eb4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 3e567545c37bbdd4cb62212078b28f70
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 9941d9cb7682a4b4e9913f239e8b08b1
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - length: 500
+    prefabList:
+    - m_AssetGUID: b9a1eb5731413d8498045fdc58646ef6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: c77813bf4c4d17f46afeb858fa0aa7c5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: cae64b4d79fd9e34ca763e4eb4466cc5
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+    - m_AssetGUID: 20fb0452515402b4ea7610f0dfdc417c
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  collectiblePrefab: {fileID: 184264, guid: 16cac8b68c4ca6448baecd0680e025f6, type: 3}
+  premiumCollectible: {fileID: 1000010457517272, guid: ac3c86c2382618643bfda6ab3cc81a0b, type: 3}
+  cloudPrefabs:
+  - {fileID: 1000012225143368, guid: 1225524528f67794ead226c3401f6bd6, type: 3}
+  - {fileID: 1000012941456988, guid: e4217d014d522f94bb0a059a38e2cb14, type: 3}
+  - {fileID: 1000013540275922, guid: 480053abe3ba0aa4883a1b63c0deee9d, type: 3}
+  cloudMinimumDistance: {x: 0, y: 10, z: 10}
+  cloudSpread: {x: 20, y: 1, z: 20}
+  cloudNumber: 20
+  skyMesh: {fileID: 4300002, guid: 0fd40b0b70fef064c9b7e20779b1f8ec, type: 3}
+  UIGroundMesh: {fileID: 4300000, guid: 28288b28edded764b843730ced06fb8c, type: 3}
+  fogColor: {r: 1, g: 0.9458719, b: 0.8627451, a: 1}
