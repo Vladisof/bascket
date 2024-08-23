@@ -50,6 +50,9 @@ namespace GameManager
 
     [FormerlySerializedAs("PowerupIconPrefab"),Header("Prefabs")]
     public GameObject PowerUpIconPrefab;
+    
+    public GameObject DeepLinkPopup;
+    public GameObject DeepLinkRewardPopup;
 
     [Header("Tutorial")]
     public TextMeshProUGUI tutorialValidatedObstacles;
@@ -291,7 +294,12 @@ namespace GameManager
 
         HandleAvoid();
 
-
+        if (PlayerSaveData.instance.isDeepLinkActive == true)
+        {
+          DeepLinkPopup.SetActive(true);
+          OnDeepLinkActivated();
+        }
+        
         UpdateUI();
 
         Modifiers.OnRunTick();
@@ -348,6 +356,27 @@ namespace GameManager
       TracksManager.isRerun = false;
       PlayerSaveData.instance.Save();
       manager.SwitchState("Loadout");
+    }
+    
+    private void OnDeepLinkActivated()
+    {
+      if (TracksManager.score > 1000 && PlayerSaveData.instance.isDeepLinkActive == true)
+      {
+        PlayerSaveData.instance.premium += 50;
+        PlayerSaveData.instance.coins += 2000;
+        PlayerSaveData.instance.DeepLinkDeactive();
+        DeepLinkPopup.SetActive(false);
+        DeepLinkRewardPopup.SetActive(true);
+        StartCoroutine(DeactivateAfterDelay(5f));
+      } 
+
+    }
+
+    private IEnumerator DeactivateAfterDelay(float delay)
+    {
+      yield return new WaitForSeconds(delay);
+      DeepLinkRewardPopup.SetActive(false);
+      StopCoroutine(DeactivateAfterDelay(5f));
     }
 
     private void UpdateUI()

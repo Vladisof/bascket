@@ -2650,7 +2650,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You now have a new map and character available in the store
+  m_text: 'Secret Mission Unlocked!
+
+    Score 1000 points in a single race to unlock
+    exclusive store items.
+
+    (Indicator visible during race)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b11ed736f7a79947920655d8d139540, type: 2}
   m_sharedMaterial: {fileID: 4623641982393631817, guid: 3b11ed736f7a79947920655d8d139540, type: 2}
@@ -2677,8 +2682,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 48.8
-  m_fontSizeBase: 48.8
+  m_fontSize: 40.93
+  m_fontSizeBase: 40.93
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4797,6 +4802,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 82094754644436538, guid: fc9855a6b2a67364ebc0db28e7bbc98b, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 81199e2b6a3bbab4d9022cf501645eaa, type: 3}
     - target: {fileID: 82452598859346016, guid: fc9855a6b2a67364ebc0db28e7bbc98b, type: 3}
       propertyPath: spreadCustomCurve.m_RotationOrder
       value: 0
@@ -4812,7 +4821,7 @@ PrefabInstance:
     - target: {fileID: 114322282601092784, guid: fc9855a6b2a67364ebc0db28e7bbc98b, type: 3}
       propertyPath: stems.Array.data[0].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 28409e4394a317c44a3201b6fa41be32, type: 3}
+      objectReference: {fileID: 8300000, guid: 959de403ecc46dc4f8965e3d1d38733f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6855,7 +6864,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: collect
+  m_text: Continue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b11ed736f7a79947920655d8d139540, type: 2}
   m_sharedMaterial: {fileID: 4623641982393631817, guid: 3b11ed736f7a79947920655d8d139540, type: 2}
@@ -6882,8 +6891,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 108.5
-  m_fontSizeBase: 108.5
+  m_fontSize: 100.8
+  m_fontSizeBase: 100.8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

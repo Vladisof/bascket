@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation2
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0e05d3c118ace234bbdcde926d5ad7b0
+  m_SerializeEntries:
+  - m_GUID: 166f997e7df494c468fe2306c8a46b8c
+    m_Address: Assets/BlendShapeStudio/CollectibleItems/Materials/CollectibleItems_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a42ca12aa2184921aed6fffd98f1088
+    m_Address: Assets/BlendShapeStudio/CollectibleItems/Textures/2048.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6c5eeaa4b8a4ab185bde2162250990e
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Materials/Basketball
+      Pack Texture.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c119eae3ff1d42f5979e7c41eab0d114
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Texture/Color
+      Palette.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21355f1ccb214672867568d82e65e1e7
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Baketball
+      Hoop Violet.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c680aad90a594883afe990dc6fa9301c
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Link
+      B Blue.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dec8ed6c519b4699a72fc61fe328e39f
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Materials/House
+      Material Basketball.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 218704eba5aa4a27b12070244399fbca
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/House
+      D.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c4f9fd3e59947b1b43e830643f0e150
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Bench
+      Basketball A.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d27746054f143f7b2363cd6ede01bd5
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Wall
+      Bricks B.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc04a04c0cc34c7e93ac9f60e53e0b27
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Grid
+      A.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba4b9fb0ed364af6b466c278e061695c
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Baketball
+      Hoop Yellow.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79caf554a1f645799929da4e53bc9679
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Baketball
+      Hoop Red.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fedb12c104d640e1b8f59d4c1934e66c
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/House
+      E.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5252476af47546418d5b0f4f993a6310
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Female
+      Dummy Up B.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c40efe876e54511a18579576a3eb670
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Female
+      Dummy Up.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ad5afbda47448cebb081d8c04fa484a
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Male
+      Dummy Up.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6293735a4e541a8b07b1d37f9d52c21
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Male
+      Dummy B.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dab949e95039468d810ffb69dab8ae3f
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Male
+      Dummy Up B.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71f6e5c40444430589ae2232601a8d35
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Female
+      Dummy B.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69821ad553a14de6978f0a50c0735384
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Basketball
+      Street Playground.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 01f85a6e965842eab972d9615cbc262c
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Basketball
+      Playground.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0750f3535b87429c9cf64c94c8d1e36a
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Ball
+      Red.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f43b65d91ba464290a9b5588328d333
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Sneaker
+      B.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ff877de883b4d06bc084e3833477ed7
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Gun
+      A.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 735e874f947d0e143a6b4e83f8a7283a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e34330069d232b8489992f2f93f1e956, type: 2}
+    - {fileID: 11400000, guid: aac2d11448eb6ee4f934acfd0a3298f0, type: 2}

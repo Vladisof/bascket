@@ -17,8 +17,7 @@ public class ProcessDeepLinkMngr : MonoBehaviour
 
   private void Awake()
   {
-          PlayerSaveData.Create();
-          PlayerSaveData.instance.DeepLinkActive();
+    
     if (Instance == null)
     {
       Instance = this;
@@ -40,8 +39,12 @@ public class ProcessDeepLinkMngr : MonoBehaviour
   private void onDeepLinkActivated (string url)
   {
     deeplinkURL = url;
-    deepLinkPopup.SetActive(true);
     PlayerSaveData.Create();
-    PlayerSaveData.instance.DeepLinkActive();
+
+    if (!PlayerSaveData.instance.isDeepLinkClaimed)
+    {
+      deepLinkPopup.SetActive(true);
+      PlayerSaveData.instance.DeepLinkActive();
+    }
   }
 }

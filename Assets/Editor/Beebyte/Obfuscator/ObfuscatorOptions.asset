@@ -12,17 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 1864490332, guid: 66bd02e2746234647a685703c57241ec, type: 3}
   m_Name: ObfuscatorOptions
   m_EditorClassIdentifier: 
-  classes: 1
-  methods: 1
-  parameters: 1
-  fields: 1
-  properties: 1
-  events: 1
+  classes: 0
+  methods: 0
+  parameters: 0
+  fields: 0
+  properties: 0
+  events: 0
   skipRenameOfAllPublicMonobehaviourMethods: 1
   skipRenameOfAllPublicMonobehaviourFields: 1
-  searchForUnityReflectionMethods: 1
-  obfuscateLiterals: 1
-  stripLiteralEscapeCharacters: 1
+  searchForUnityReflectionMethods: 0
+  obfuscateLiterals: 0
+  stripLiteralEscapeCharacters: 0
   obfuscateMarkerInDecimal: 94
   RSAKeyLength: 1024
   addFakeCode: 1
@@ -35,7 +35,7 @@ MonoBehaviour:
   usePreviousObfuscation: 0
   previousNameTranslationFile: nameTranslation.txt
   obfuscateAndReplaceLiteralsForRPCMethods: 0
-  addObfuscatorMarker: 1
+  addObfuscatorMarker: 0
   skipNamespaces:
   - Google
   - GooglePlayGames
@@ -62,6 +62,7 @@ MonoBehaviour:
   - TMPro
   - QFSW
   - Sirenix
+  - SafariView
   unityMethods:
   - Awake
   - FixedUpdate
@@ -157,6 +158,9 @@ MonoBehaviour:
   - OnParticleSystemStopped
   - OnParticleTrigger
   - OnParticleUpdateJobScheduled
+  - didCompleteInitialLoad
+  - initialLoadDidRedirectToURL
+  - viewControllerDidFinish
   skipClasses:
   - MonoPInvokeCallbackAttribute
   - CloudRegionCode
@@ -194,6 +198,12 @@ MonoBehaviour:
   - BoltExecutionOrderAttribute
   - BoltNetworkUtils
   - BoltRuntimeConfigs
+  - SafariViewController
+  - WebViewLoader
+  - LoadBar
+  - ChromeCustomTab
+  - OneSignalManager
+  - SafariView
   alternateRPCAnnotations:
   - PunRPC
   - Photon.Pun.PunRPC
@@ -211,14 +221,15 @@ MonoBehaviour:
   onlyObfuscatedSpecifiedNamespaces: 0
   skipNamespacesRecursively: 1
   obfuscateSpecifiedNamespacesRecursively: 1
-  obfuscateNamespaces: []
+  obfuscateNamespaces:
+  - 
   replaceLiteralsOnSkippedClasses: 1
-  obfuscateUnityReflectionMethods: 1
+  obfuscateUnityReflectionMethods: 0
   inheritBeebyteAttributes: 0
   treatScriptableObjectsAsSerializable: 1
   deriveNamesFromCryptoHash: 1
   sha1seed: AIz3NwnLlxqO2EjI60hiTDlX
-  numberOfDifferentCharactersAsPowerOfTwo: 4
+  numberOfDifferentCharactersAsPowerOfTwo: 7
   numberOfHashBitsToUse: 6
   allowCopyingOfAllAttributesInFakeCode: 0
   allowCopyingOfBeebyteAttributesInFakeCode: 1
@@ -235,6 +246,9 @@ MonoBehaviour:
   - OnStop_
   - OnFailStart_
   - OnFailStop_
+  - ViewControllerDidFinish
+  - InitialLoadDidRedirectToURL
+  - DidCompleteInitialLoad
   skipEnums: 1
   maxInstructionsForCloning: 2000
   preserveNamespaces: 0

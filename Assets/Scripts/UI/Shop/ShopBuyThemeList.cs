@@ -51,10 +51,6 @@ public class ShopBuyThemeList : ShopBuyList
 		                    itm.premiumText.transform.parent.gameObject.SetActive(false);
 	                    }
 	                    
-	                    if (PlayerSaveData.instance.isDeepLinkActive)
-	                    {
-		                    Buy(themes);
-	                    }
 
 	                    itm.buyButton.onClick.AddListener(delegate() { Buy(themes); });
 

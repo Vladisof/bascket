@@ -27,6 +27,7 @@ namespace GameManager
     public TextMeshProUGUI themeNameDisplay;
     public RectTransform themeSelect;
     public Image themeIcon;
+    public GameObject DeepLinkPopup;
 
     [FormerlySerializedAs("powerupSelect"), Header("PowerUp UI")]
     public RectTransform powerUpSelect;
@@ -98,6 +99,12 @@ namespace GameManager
       }
 
       runButton.interactable = false;
+      
+      if (PlayerSaveData.instance.isDeepLinkCompleteMission)
+      {
+        DeepLinkPopup.SetActive(true);
+        PlayerSaveData.instance.isDeepLinkActive = false;
+      }
 
       if (_mPowerUpToUse != Consumables.ConsumableType.NONE)
       {

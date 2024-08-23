@@ -30,6 +30,8 @@ public class PlayerSaveData
   private string _saveFile = "";
   
   public bool isDeepLinkActive;
+  public bool isDeepLinkCompleteMission;
+  public bool isDeepLinkClaimed;
   public int coins;
   public int premium;
   public readonly Dictionary<Consumables.ConsumableType, int> consumables = new Dictionary<Consumables.ConsumableType, int>();
@@ -102,17 +104,26 @@ public class PlayerSaveData
     while (missions.Count < k_MissionCount)
       AddMission();
   }
-  public void DeepLinkActive()
+  
+  public void DeepLinkClaim()
   {
-    isDeepLinkActive = true; 
     _mInstance.characters.Add("Karate");
     _mInstance.themes.Add("Secret");
+    isDeepLinkClaimed = true;
+    isDeepLinkActive = false;
+    isDeepLinkCompleteMission = false;
+    Save();
+  }
+  public void DeepLinkActive()
+  {
+    isDeepLinkActive = true;
     Save();
   }
   
   public void DeepLinkDeactive()
   {
     isDeepLinkActive = false;
+    isDeepLinkCompleteMission = true;
     Save();
   }
 
@@ -224,6 +235,8 @@ public class PlayerSaveData
     _mInstance.usedTheme = 0;
     _mInstance.usedAccessory = -1;
     _mInstance.isDeepLinkActive = false;
+    _mInstance.isDeepLinkCompleteMission = false;
+    _mInstance.isDeepLinkClaimed = false;
 
     _mInstance.coins = 0;
     _mInstance.premium = 0;
@@ -256,6 +269,8 @@ public class PlayerSaveData
 
     coins = r.ReadInt32();
     isDeepLinkActive = r.ReadBoolean();
+    isDeepLinkClaimed = r.ReadBoolean();
+    isDeepLinkCompleteMission = r.ReadBoolean();
 
     consumables.Clear();
     int consumableCount = r.ReadInt32();
@@ -373,6 +388,8 @@ public class PlayerSaveData
     w.Write(k_SVersion);
     w.Write(coins);
     w.Write(isDeepLinkActive);
+    w.Write(isDeepLinkClaimed);
+    w.Write(isDeepLinkCompleteMission);
 
     w.Write(consumables.Count);
 

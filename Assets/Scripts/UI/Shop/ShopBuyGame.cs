@@ -22,6 +22,7 @@ namespace UI.Shop
         public ShopBuyAccessories BuyAccessories;
         [FormerlySerializedAs("themeList")]
         public ShopBuyThemeList BuyThemeList;
+        public GameObject DeepLinkPopup;
 
         [Header("UI")]
         public TextMeshProUGUI coinCounter;
@@ -50,6 +51,7 @@ namespace UI.Shop
 
         public void OpenItemList()
         {
+            DeepLinkPopup.SetActive(false);
             _mOpenBuyList.Close();
             ItemBuyList.Open();
             _mOpenBuyList = ItemBuyList;
@@ -60,6 +62,10 @@ namespace UI.Shop
             _mOpenBuyList.Close();
             CharacterBuyList.Open();
             _mOpenBuyList = CharacterBuyList;
+            if (PlayerSaveData.instance.isDeepLinkCompleteMission)
+            {
+                DeepLinkPopup.SetActive(true);
+            }
         }
 
         public void OpenThemeList()
@@ -67,10 +73,15 @@ namespace UI.Shop
             _mOpenBuyList.Close();
             BuyThemeList.Open();
             _mOpenBuyList = BuyThemeList;
+            if (PlayerSaveData.instance.isDeepLinkCompleteMission)
+            {
+                DeepLinkPopup.SetActive(true);
+            }
         }
 
         public void OpenAccessoriesList()
         {
+            DeepLinkPopup.SetActive(false);
             _mOpenBuyList.Close();
             BuyAccessories.Open();
             _mOpenBuyList = BuyAccessories;

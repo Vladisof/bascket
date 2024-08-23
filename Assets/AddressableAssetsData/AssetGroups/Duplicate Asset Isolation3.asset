@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation3
+  m_EditorClassIdentifier: 
+  m_GroupName: Duplicate Asset Isolation3
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5ebee5b771e9c08488ead6c9eee265aa
+  m_SerializeEntries:
+  - m_GUID: 62526fb5b97fcc04f99749af9a36f8ca
+    m_Address: Assets/67 resurs/67 resurs/game/magnit.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fdb8ec8de684532bc995ba209636b2a
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Gate
+      B.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0bd8204c9d04f4ca0e83b343ab16137
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Button
+      D.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c1bc811e822404f9ec0e556607c7a61
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Button
+      E.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef0f345e3a944214ac0e1ecdaee10d02
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Locker
+      Violet.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0959d0e84761482d98c6215375ba52b7
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual Basketball/Model/Gate
+      C.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46ab43678f674070a33dc594a84ae830
+    m_Address: Assets/Hyper Casual Mega Sports/Hyper Casual American Football/Textures/Color
+      Palette.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 38ef50114c14e664a91be2450fd25697, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 771cb9a90d4299a4abf183889b69a2bb, type: 2}
+    - {fileID: 11400000, guid: e77140a9934e21340ba1bb13b6a3f794, type: 2}
